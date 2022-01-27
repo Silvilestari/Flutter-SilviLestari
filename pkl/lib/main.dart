@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'tugas.dart';
 import 'column.dart';
 import 'latihan.dart';
 import 'text.dart';
@@ -19,10 +20,10 @@ class MyApp extends StatelessWidget {
       title: "Flutter Pertama",
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Belajar Flutter"),
+          title: Text("Belajar Materi Flutter"),
           backgroundColor: Colors.blueAccent,
         ),
-        body: Latihan(),
+        body: Tugas(),
       ),
     );
   }
