@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:pkl/listview/list_basic.dart';
+import 'package:pkl/listview/list_builder.dart';
+import 'package:pkl/listview/list_separated.dart';
 import 'tugas.dart';
 import 'column.dart';
 import 'latihan.dart';
@@ -19,12 +22,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Flutter Pertama",
       home: Scaffold(
-        appBar: AppBar(
-          title: Text("Belajar Materi Flutter"),
-          backgroundColor: Colors.blueAccent,
-        ),
-        body: Tugas(),
-      ),
+          appBar: AppBar(
+            title: Text("Belajar Materi Flutter"),
+            backgroundColor: Colors.blueAccent,
+          ),
+          body: ListViewBuilder()),
     );
   }
 }
