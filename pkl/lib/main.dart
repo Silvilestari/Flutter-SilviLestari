@@ -1,11 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:pkl/gridview/builder.dart';
+import 'package:pkl/gridview/contoh.dart';
+import 'package:pkl/gridview/custom.dart';
+import 'package:pkl/gridview/extent.dart';
+import 'package:pkl/gridview/gridview.dart';
+import 'package:pkl/listview/latihan2.dart';
 import 'package:pkl/listview/list_basic.dart';
 import 'package:pkl/listview/list_builder.dart';
 import 'package:pkl/listview/list_separated.dart';
+import 'package:pkl/listview/lat_listview.dart';
+import 'package:pkl/gridview/count.dart';
 import 'tugas.dart';
 import 'column.dart';
 import 'latihan.dart';
 import 'text.dart';
+import 'stack_widget.dart';
 
 import 'container.dart';
 import 'row.dart';
@@ -23,10 +32,10 @@ class MyApp extends StatelessWidget {
       title: "Flutter Pertama",
       home: Scaffold(
           appBar: AppBar(
-            title: Text("Belajar Materi Flutter"),
+            title: Text("Belajar Flutter"),
             backgroundColor: Colors.blueAccent,
           ),
-          body: ListViewBuilder()),
+          body: BelajarStackWidget()),
     );
   }
 }
