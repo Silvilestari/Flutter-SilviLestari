@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class GridViewCount extends StatelessWidget {
+class GridViewCountDua extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

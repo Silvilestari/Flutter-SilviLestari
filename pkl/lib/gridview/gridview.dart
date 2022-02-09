@@ -1,22 +1,61 @@
 import 'package:flutter/material.dart';
 
-class GridViewAja extends StatelessWidget {
+class GridViewBasic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: GridView(
+      scrollDirection: Axis.horizontal,
       gridDelegate:
-          SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+          SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
       children: <Widget>[
-        FlutterLogo(),
-        FlutterLogo(),
-        FlutterLogo(),
-        FlutterLogo(),
-        FlutterLogo(),
-        FlutterLogo(),
-        FlutterLogo(),
-        FlutterLogo(),
+        Container(
+          margin: EdgeInsets.all(10),
+          color: Colors.blue,
+          child: FlutterLogo(),
+        ),
+        Container(
+          margin: EdgeInsets.all(10),
+          color: Colors.yellow,
+          child: FlutterLogo(),
+        ),
+        Container(
+          margin: EdgeInsets.all(10),
+          color: Colors.red,
+          child: FlutterLogo(),
+        ),
+        Container(
+          margin: EdgeInsets.all(10),
+          color: Colors.blue,
+          child: FlutterLogo(),
+        ),
+        Container(
+          margin: EdgeInsets.all(10),
+          color: Colors.yellow,
+          child: FlutterLogo(),
+        ),
+        Container(
+          margin: EdgeInsets.all(10),
+          color: Colors.red,
+          child: FlutterLogo(),
+        ),
+        Container(
+          margin: EdgeInsets.all(10),
+          color: Colors.blue,
+          child: FlutterLogo(),
+        ),
+        Container(
+          margin: EdgeInsets.all(10),
+          color: Colors.yellow,
+          child: FlutterLogo(),
+        ),
+        Container(
+          margin: EdgeInsets.all(10),
+          color: Colors.red,
+          child: FlutterLogo(),
+        ),
       ],
+      
     ));
   }
 }

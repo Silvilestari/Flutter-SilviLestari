@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pkl/StackWidget/latihan2.dart';
 import 'package:pkl/contoh_stack_widget.dart';
 import 'package:pkl/gridview/builder.dart';
 import 'package:pkl/gridview/contoh.dart';
@@ -12,13 +13,12 @@ import 'package:pkl/listview/list_separated.dart';
 import 'package:pkl/listview/lat_listview.dart';
 import 'package:pkl/gridview/count.dart';
 import 'package:pkl/stack_widget.dart';
-import 'tugas.dart';
-import 'column.dart';
-import 'latihan.dart';
-import 'text.dart';
-
-import 'container.dart';
-import 'row.dart';
+import 'package:pkl/tugas.dart';
+import 'package:pkl/column.dart';
+import 'package:pkl/latihan.dart';
+import 'package:pkl/text.dart';
+import 'package:pkl/container.dart';
+import 'package:pkl/row.dart';
 
 void main() {
   runApp(MyApp());
@@ -33,10 +33,10 @@ class MyApp extends StatelessWidget {
       title: "Flutter Pertama",
       home: Scaffold(
           appBar: AppBar(
-            title: Text("Belajar Flutter"),
+            title: Text("Flutter"),
             backgroundColor: Colors.blueAccent,
           ),
-          body: BelajarStackWidget()),
+          body: LatihanDua()),
     );
   }
 }
